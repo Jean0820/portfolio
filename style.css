@@ -383,7 +383,7 @@ footer h5{
     margin-top: 2rem;
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* Extra large devices */
 @media only screen and (max-width: 1350px) {
     .container{
         width: 85%;
@@ -394,7 +394,7 @@ footer h5{
         margin: 10rem auto;
     }
 }
-/* Large devices (laptops/desktops, 992px and up) */
+/* Large devices */
 @media only screen and (max-width: 1210px) {
     .container{
         width: 85%;
@@ -404,7 +404,7 @@ footer h5{
     }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* Medium devices */
 @media only screen and (max-width: 1100px) {
     .container{
         width: 90%;

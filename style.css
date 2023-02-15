@@ -1,5 +1,4 @@
 
-
 :root{
     --color-primary: #FFD2A4;
     --color-dark: #0D0D0D;
@@ -145,6 +144,8 @@ nav{
     justify-content: start;
     align-items: start;
     list-style-type: none;
+    font-size: 0.9rem;
+    margin-top: 1rem;
 }
 
 .middle-header li a,
@@ -312,16 +313,38 @@ P{
 .footer{
     padding-top: 100px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     line-height: 40px;
-    background:  #161722;
     gap: 50px;
-    padding-top: 50px;
+    padding: 50px 0;
     margin-top: 100px;
-    color: white;
-   
+    color: rgb(255, 255, 255,0.9); 
     
 }
+
+footer{
+    background:  #161722;
+    font-size: 1.3rem;
+}
+
+.logo-footer{
+    color: var(--color-primary);
+}
+
+
+footer h3{
+    padding-bottom: 1rem;
+}
+
+footer h5{
+    padding-bottom: 1rem;
+}
+
+.h6{
+    color: rgb(255, 255, 255,0.7);
+    font-size: 0.9rem;
+}
+
 .input{
     width: 205px;
     height: 52px;
@@ -331,11 +354,32 @@ P{
     padding: 1rem;
 }
 .input-footer{
+    width: 512px;
+    height: 64px;
     border: 1px solid rgb(255, 255, 255,0.3);
     border-radius: 10px;
+    margin-top: 1rem ;
+    color: rgb(255, 255, 255,0.9);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.input-footer a{
+    height: 64px;
+    border-radius: var(--btn-border-radius);
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .connect{
     gap: 50px;
+}
+
+.div-icons-under.again{
+    margin-top: 2rem;
 }
 

@@ -317,7 +317,6 @@ P{
     padding: 50px 0;
     margin-top: 100px;
     color: rgb(255, 255, 255,0.9); 
-    
 }
 
 footer{
@@ -362,6 +361,10 @@ footer h5{
     justify-content: end;
     align-items: center;
 }
+.input.message{
+    border: 1px solid rgb(255, 255, 255,0.3);
+    border-radius: 10px;
+}
 
 .input-footer a{
     height: 64px;
@@ -379,6 +382,30 @@ footer h5{
 
 .div-icons-under.again{
     margin-top: 2rem;
+}
+
+.contact-form{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.contact-form1{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+}
+
+.contact-form input{
+    width: 100%;
 }
 
 /* Extra large devices */
@@ -406,7 +433,6 @@ footer h5{
 @media only screen and (max-width: 1100px) {
     .container{
         width: 90%;
-        background-color: #41f1b6; 
     }
     .container.find-fulfilment{
         width: 50%;
@@ -464,6 +490,11 @@ footer h5{
         border: none;
     }
 
+    .input-footer .input{
+        border: 1px solid rgb(255, 255, 255,0.3);
+        border-radius: 10px;
+    }
+
     .h33{
         font-size: 2rem;
     }
@@ -471,7 +502,68 @@ footer h5{
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    
+
+    .container{
+        width: 95%;
+        text-align: center;
+    }
+
+    .middle-header{
+        display: none;
+    }
+
+    .button{
+        padding: 1rem;
+        border-radius: var(--btn-border-radius);
+        cursor: pointer;
+    }
+
+    .container.find-fulfilment{
+        width: 90%;
+    }
+
+    .container3{
+        width: 80%;
+    }
+
+    .find-fulfilment-right{
+        width: 100%;
+        text-align: center;
+    }
+
+    .team{
+        grid-template-columns: 1fr;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    .photos-3,
+    .footer.container,
+    .input-footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+        text-align: center;
+        gap: 2rem;
+    }
+    .photos-3 img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .lastpraying{
+        border-radius: 15px;
+        margin-top: 0px;
+    }
+
+    .input-footer .input{
+        border: 1px solid rgb(255, 255, 255,0.3);
+        border-radius: 10px;
+        margin-left: 7rem;
+    }
+
 }
 
 
